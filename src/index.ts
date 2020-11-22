@@ -2,7 +2,7 @@ import debug, { Debugger } from 'debug'
 import * as Puppeteer from 'puppeteer'
 
 /** @private */
-import merge from 'merge-deep'
+import { merge } from 'merge-anything'
 
 export interface PluginOptions {
   [key: string]: any
